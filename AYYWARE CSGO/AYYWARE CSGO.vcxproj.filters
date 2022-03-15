@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Utilities">
+      <UniqueIdentifier>{c47dd4be-c431-44c5-8c1c-507db9633d9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Common">
+      <UniqueIdentifier>{774e3dea-56c7-43da-8802-cdda87ea2710}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Source Engine">
+      <UniqueIdentifier>{97e92231-4cd8-4b46-9a23-48d9d910e3b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Injection">
+      <UniqueIdentifier>{9b3b858d-2beb-4d22-8eff-d73f66e95622}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\变量声明">
+      <UniqueIdentifier>{13ead724-04fd-46c2-9dcd-0898335c35cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\菜单程序">
+      <UniqueIdentifier>{d8551803-e03b-4a1d-9348-77a3b6d8dce3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\外挂程序">
+      <UniqueIdentifier>{b72d4168-4d56-407d-af80-4d2cc9dc3888}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\_启动程序集">
+      <UniqueIdentifier>{393e8642-de99-47df-9a0e-28016684c9ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Source Engine\初始程序">
+      <UniqueIdentifier>{848aa256-e4d2-4ea8-9309-db9e86d6109f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\绘制引擎">
+      <UniqueIdentifier>{ab9e9a74-34bb-48f0-8f40-f4d79fe46428}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DLLMain.cpp">
+      <Filter>Source Files\_启动程序集</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="CRC32.cpp">
+      <Filter>Source Files\Source Engine\初始程序</Filter>
+    </ClCompile>
+    <ClCompile Include="NetVars.cpp">
+      <Filter>Source Files\Source Engine\初始程序</Filter>
+    </ClCompile>
+    <ClCompile Include="Offsets.cpp">
+      <Filter>Source Files\Source Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks.cpp">
+      <Filter>Source Files\_启动程序集</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Source Files\菜单程序</Filter>
+    </ClCompile>
+    <ClCompile Include="UTIL Functions.cpp">
+      <Filter>Source Files\Source Engine\初始程序</Filter>
+    </ClCompile>
+    <ClCompile Include="MathFunctions.cpp">
+      <Filter>Source Files\Source Engine\初始程序</Filter>
+    </ClCompile>
+    <ClCompile Include="NetVarManager.cpp">
+      <Filter>Source Files\Source Engine\初始程序</Filter>
+    </ClCompile>
+    <ClCompile Include="SpoofedConvar.cpp">
+      <Filter>Source Files\Source Engine\初始程序</Filter>
+    </ClCompile>
+    <ClCompile Include="INJ\ReflectiveLoader.cpp">
+      <Filter>Source Files\Injection</Filter>
+    </ClCompile>
+    <ClCompile Include="挂接封装.cpp">
+      <Filter>Source Files\菜单程序</Filter>
+    </ClCompile>
+    <ClCompile Include="功能初始化.cpp">
+      <Filter>Source Files\菜单程序</Filter>
+    </ClCompile>
+    <ClCompile Include="程序集_自瞄.cpp">
+      <Filter>Source Files\外挂程序</Filter>
+    </ClCompile>
+    <ClCompile Include="程序集_透视.cpp">
+      <Filter>Source Files\外挂程序</Filter>
+    </ClCompile>
+    <ClCompile Include="程序集_杂项.cpp">
+      <Filter>Source Files\外挂程序</Filter>
+    </ClCompile>
+    <ClCompile Include="声明_自定义类型.cpp">
+      <Filter>Source Files\菜单程序</Filter>
+    </ClCompile>
+    <ClCompile Include="全局_基址初始化.cpp">
+      <Filter>Source Files\Source Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="程序集_安装.cpp">
+      <Filter>Source Files\外挂程序</Filter>
+    </ClCompile>
+    <ClCompile Include="绘制引擎.cpp">
+      <Filter>Source Files\绘制引擎</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="自定义数据类型.h" />
+    <ClInclude Include="变量声明_挂接封装.h">
+      <Filter>Source Files\变量声明</Filter>
+    </ClInclude>
+    <ClInclude Include="全局变量.h">
+      <Filter>Source Files\变量声明</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities.h" />
+    <ClInclude Include="变量声明_Tab.h">
+      <Filter>Source Files\变量声明</Filter>
+    </ClInclude>
+    <ClInclude Include="Offsets.h" />
+    <ClInclude Include="ClientRecvProps.h" />
+    <ClInclude Include="模版代码.h" />
+    <ClInclude Include="Hacks.h" />
+    <ClInclude Include="DLL_Engine.h" />
+    <ClInclude Include="绘制封装.h">
+      <Filter>Source Files\绘制引擎</Filter>
+    </ClInclude>
+    <ClInclude Include="声明_绘制引擎.h">
+      <Filter>Source Files\绘制引擎</Filter>
+    </ClInclude>
+    <ClInclude Include="虚表_vgui2引擎.h">
+      <Filter>Source Files\绘制引擎</Filter>
+    </ClInclude>
+    <ClInclude Include="UTIL Functions.h" />
+  </ItemGroup>
+</Project>
